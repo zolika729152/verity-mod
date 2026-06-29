@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[dependencies.verity]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.verity]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+    modId="verity"
+    version="1.0.0"
+    displayName="Verity - Your AI Helper Friend"
+    description='''
+Verity is your personal AI helper friend in Minecraft!
+She joins when you create a world and helps you with anything.
+Ask her about diamonds, items, villages and more!
+Type !verity <question> in chat to talk to her.
+Powered by Google Gemini AI.
+'''
+    [[mods.icon]]
+        fileName="verity_icon.png"
